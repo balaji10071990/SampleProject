@@ -21,7 +21,7 @@ public class ShoppingCartPage extends BasePage {
 	@FindBy(xpath = "//h2[contains(text(),'Shopping Cart')]")
 	WebElement shoppingCartPageTitle;
 
-	@FindBy(xpath = "(//*[contains(text(),'Delete')])[4]")
+	@FindBy(xpath = "(//*[contains(text(),'Delete')])[3]")
 	WebElement delete;
 
 	@FindBy(xpath = "//h1[contains(text(),'Your Shopping Cart is empty')]")

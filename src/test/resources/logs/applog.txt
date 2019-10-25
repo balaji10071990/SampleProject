@@ -1,4 +1,22 @@
-INFO    2019-10-25 10:59:53,388 [main] com.sampleproject.testScripts.BaseTest  - Config properties file loaded
-INFO    2019-10-25 10:59:57,534 [TestNG-test=Test-1] com.sampleproject.testScripts.BaseTest  - Inside Login Test
-INFO    2019-10-25 11:00:26,356 [TestNG-test=Test-1] com.sampleproject.testScripts.BaseTest  - Driver Initialized !!!
-INFO    2019-10-25 11:02:09,804 [TestNG-test=Test-1] com.sampleproject.testScripts.BaseTest  - Test Execution Completed !!!
+INFO    2019-10-25 11:27:54,761 [main] com.sampleproject.testScripts.BaseTest  - Config properties file loaded
+INFO    2019-10-25 11:27:55,783 [TestNG-test=Test-1] com.sampleproject.testScripts.BaseTest  - Inside Login Test
+INFO    2019-10-25 11:28:02,133 [TestNG-test=Test-1] com.sampleproject.testScripts.BaseTest  - Driver Initialized !!!
+INFO    2019-10-25 11:28:19,661 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Typing in : searchTextBox entered the value as : Apple 6s gold
+INFO    2019-10-25 11:28:20,380 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : searchSubmit
+INFO    2019-10-25 11:28:30,596 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : Apple iPhone 6s (32GB) - Gold
+INFO    2019-10-25 11:28:38,273 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : Add to Cart
+INFO    2019-10-25 11:28:43,543 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : Proceed to Buy
+INFO    2019-10-25 11:28:45,625 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Typing in : login id entered the value as : 9908582999
+INFO    2019-10-25 11:28:45,883 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : continue Button
+INFO    2019-10-25 11:28:48,555 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - waiting for :[[ChromeDriver: chrome on XP (72d9fa8ec0e276f3a1d44ef2d8af9dba)] -> xpath: //*[@name='password']] for :60 seconds
+INFO    2019-10-25 11:28:50,592 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Typing in : password entered the value as : gangadhar@999
+INFO    2019-10-25 11:28:50,987 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : login Button
+INFO    2019-10-25 11:29:07,766 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : deliver To This Address
+INFO    2019-10-25 11:29:11,977 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : continue
+INFO    2019-10-25 11:29:14,455 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : Credit/Debit Card
+INFO    2019-10-25 11:29:20,717 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : cart
+INFO    2019-10-25 11:29:25,139 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : Qty Dropdown
+INFO    2019-10-25 11:29:25,801 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - waiting for :[[ChromeDriver: chrome on XP (72d9fa8ec0e276f3a1d44ef2d8af9dba)] -> xpath: (//*[contains(text(),'Delete')])[3]] for :60 seconds
+INFO    2019-10-25 11:29:27,838 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - Clicking on : delete
+INFO    2019-10-25 11:29:30,100 [TestNG-test=Test-1] com.sampleproject.PageObjects.BasePage  - waiting for :[[ChromeDriver: chrome on XP (72d9fa8ec0e276f3a1d44ef2d8af9dba)] -> xpath: //h1[contains(text(),'Your Shopping Cart is empty')]] for :60 seconds
+INFO    2019-10-25 11:29:34,016 [TestNG-test=Test-1] com.sampleproject.testScripts.BaseTest  - Test Execution Completed !!!

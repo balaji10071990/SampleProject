@@ -40,7 +40,7 @@ public class TC001_Add_And_Pemove_Product extends BaseTest {
 	@AfterMethod
 	public void tearDown() {
 
-		logInfo("Login Test Completed");
+		logInfo("TC001 Test Completed");
 
 		quit();
 
