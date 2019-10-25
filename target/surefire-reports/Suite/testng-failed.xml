@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.sampleproject.ExtentListeners.ExtentListeners"/>
+    <listener class-name="com.sampleproject.helper.listener.RetryListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.sampleproject.testScripts.TC001_Add_And_Pemove_Product">
+        <methods>
+          <include name="TC001" invocation-numbers="0"/>
+          <include name="setUpFramework"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sampleproject.testScripts.TC001_Add_And_Pemove_Product -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="classes">
+
+
+	<listeners>
+		<listener
+			class-name="com.sampleproject.ExtentListeners.ExtentListeners"></listener>
+		<listener
+			class-name="com.sampleproject.helper.listener.RetryListener" />
+	</listeners>
+
+
+
+
+	<test name="Test">
+
+		<!--<packages> <package name="com.w2a.zoho.testcases" /> </packages> -->
+		<classes>
+
+			<class
+
+				name="com.sampleproject.testScripts.TC001_Add_And_Pemove_Product" />
+
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
+<!--ExcelReader excel = new ExcelReader(Constants.SUITE1_XL_PATH); String 
+	testcase = "TC015"; Hashtable<String,String> data = DataUtil.getData1(testcase, 
+	excel); openBrowser(data.get("browser")); -->

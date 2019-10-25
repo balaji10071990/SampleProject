@@ -1,0 +1,4 @@
+INFO    2019-10-25 10:59:53,388 [main] com.sampleproject.testScripts.BaseTest  - Config properties file loaded
+INFO    2019-10-25 10:59:57,534 [TestNG-test=Test-1] com.sampleproject.testScripts.BaseTest  - Inside Login Test
+INFO    2019-10-25 11:00:26,356 [TestNG-test=Test-1] com.sampleproject.testScripts.BaseTest  - Driver Initialized !!!
+INFO    2019-10-25 11:02:09,804 [TestNG-test=Test-1] com.sampleproject.testScripts.BaseTest  - Test Execution Completed !!!
